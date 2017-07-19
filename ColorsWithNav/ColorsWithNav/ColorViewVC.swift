@@ -17,6 +17,7 @@ class ColorViewVC : UIViewController
     override func viewDidLoad() {
         ChosenColorImage.backgroundColor = ColorModel.currColor
         ChosenColorLabel.text = ColorModel.currColorName
+        ChosenColorLabel.textColor = ColorModel.currColor
     }
     
 }
